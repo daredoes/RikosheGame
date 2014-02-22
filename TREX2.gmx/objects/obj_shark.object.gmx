@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>sl = 0
+
+x = round(x/32)*32
+y = round(y/16)*16
 </string>
           </argument>
         </arguments>
@@ -179,9 +182,10 @@ if sl
 if mouse_check_button_pressed(1)
 if position_meeting(mouse_x,mouse_y,self)
     {
+    obj_dino.sl = 0
+    obj_shark.sl = 0
     sl = 1
     global.turn = shark;
-    obj_dino.sl = 0
     }
 
 </string>

@@ -81,6 +81,7 @@ instance_create(0,0,obj_variables);</code>
     <instance objName="obj_land" x="1472" y="784" name="inst_5A7127E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_wall_right" x="1344" y="848" name="inst_FE0A7610" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="1024" y="738" name="inst_F878E592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_dino" x="1216" y="656" name="inst_CE4C858E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

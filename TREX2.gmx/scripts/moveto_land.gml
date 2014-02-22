@@ -1,6 +1,7 @@
 //moveto_land( x , y )
 
 if position_meeting(x+argument0,y+argument1,obj_land)
+if !collision_circle(x+argument0,y+argument1,8,obj_dino,0,1)
 {
 draw_sprite(spr_grid_highlight,0,x+argument0,y+argument1)
 
