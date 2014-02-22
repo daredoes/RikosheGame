@@ -53,11 +53,15 @@ nw = instance_nearest(x,y,obj_sea_wall_right)
             <kind>1</kind>
             <string>if position_meeting(x,y,obj_dino)
 {
-if instance_exists(nw) with nw instance_destroy()
+nw.x = -100
+//if instance_exists(nw) with nw instance_destroy()
 image_index = 1
 }
 else
+{
+nw.x = nw.xstart
 image_index = 0
+}
 </string>
           </argument>
         </arguments>

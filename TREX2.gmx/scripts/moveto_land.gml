@@ -5,7 +5,7 @@ if position_meeting(x+argument0,y+argument1,obj_land)
 draw_sprite(spr_grid_highlight,0,x+argument0,y+argument1)
 
 
-if point_distance( mouse_x , mouse_y , x + argument0 , y + argument1 ) < 16
+if point_distance( mouse_x , mouse_y , x + argument0 , y + argument1 ) < 20
 {
 draw_sprite(spr_grid_highlight,1,x+argument0,y+argument1)
 
