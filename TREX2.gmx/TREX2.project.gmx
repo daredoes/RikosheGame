@@ -32,6 +32,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_land</sprite>
+    <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_raft</sprite>
     <sprite>sprites\spr_grid_highlight</sprite>
     <sprite>sprites\spr_shark</sprite>
