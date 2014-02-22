@@ -73,7 +73,7 @@ if(global.turn = shark)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_door">
+    <event eventtype="4" ename="obj_main_menu">
       <action>
         <libid>1</libid>
         <id>603</id>
