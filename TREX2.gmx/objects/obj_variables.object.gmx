@@ -60,32 +60,35 @@ movesAtEndOfLevel = 0;
             <kind>1</kind>
             <string>if(room != rm_html5 || room != rm_game_over || room != rm_main_menu)
 {
-    step++;
-    if(step = 30)
+    if(showhelp = 0)
     {
-        secondsPlayed++;
-        step = 0;
-    }
-    if(secondsPlayed &gt;= 60)
-    {   
-        secondsPlayed = 0;
-        minutesPlayed++;
-    }
-    if(secondsPlayed &lt; 10)
-    {
-        secondUnder = "0";
-    }
-    else
-    {
-        secondUnder = "";
-    }
-    if(minutesPlayed &lt; 10)
-    {
-        minuteUnder = "0";
-    }
-    else
-    {
-        minuteUnder = "";
+        step++;
+        if(step = 30)
+        {
+            secondsPlayed++;
+            step = 0;
+        }
+        if(secondsPlayed &gt;= 60)
+        {   
+            secondsPlayed = 0;
+            minutesPlayed++;
+        }
+        if(secondsPlayed &lt; 10)
+        {
+            secondUnder = "0";
+        }
+        else
+        {
+            secondUnder = "";
+        }
+        if(minutesPlayed &lt; 10)
+        {
+            minuteUnder = "0";
+        }
+        else
+        {
+            minuteUnder = "";
+        }
     }
     
 }
