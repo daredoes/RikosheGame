@@ -18,7 +18,8 @@
     <sprite>sprites\spr_sea_wall_right</sprite>
     <sprite>sprites\spr_door_right</sprite>
     <sprite>sprites\spr_door_left</sprite>
-    <sprite>sprites\spr_portal</sprite>
+    <sprite>sprites\spr_portal_blue</sprite>
+    <sprite>sprites\spr_portal_red</sprite>
     <sprite>sprites\spr_face</sprite>
   </sprites>
   <backgrounds name="background">
@@ -53,6 +54,8 @@
     <object>objects\obj_button</object>
     <object>objects\obj_dev</object>
     <object>objects\obj_variables</object>
+    <object>objects\obj_portal_blue</object>
+    <object>objects\obj_portal_red</object>
     <object>objects\obj_door</object>
     <object>objects\obj_door_left</object>
     <object>objects\obj_sea_wall_right</object>
