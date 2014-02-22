@@ -126,15 +126,15 @@ for(dir = 0 ; dir &lt; 360 ; dir+=45)
 if sl
     {
     //draw_circle(x,y,18,1)
-    moveto_water(0,-34)
-    moveto_water(0,34)
-    moveto_water(64,0)
-    moveto_water(-64,0)
-    moveto_water(32,-17)
-    moveto_water(-32,-17)
-    moveto_water(32,17)
-    moveto_water(-32,17)
-    if point_distance(x,y,mouse_x,mouse_y)&gt;96
+    moveto_water(0,-64)
+    moveto_water(0,64)
+    moveto_water(128,0)
+    moveto_water(-128,0)
+    moveto_water(64,-34)
+    moveto_water(-64,-34)
+    moveto_water(64,34)
+    moveto_water(-64,34)
+    if point_distance(x,y,mouse_x,mouse_y)&gt;96*2
     if mouse_check_button_pressed(1)
     sl = 0
     }
@@ -159,11 +159,11 @@ if sl
             }
         if mouse_y &gt; y + 8
             {
-            y1+=17
+            y1+=34
             }
         if mouse_y &lt; y - 8
             {
-            y1-=17
+            y1-=34
             }
         if position_meeting(x1,y1,obj_water)
             {

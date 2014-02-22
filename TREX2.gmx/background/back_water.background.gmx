@@ -14,7 +14,7 @@
     <TextureGroup1>0</TextureGroup1>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>64</width>
-  <height>34</height>
+  <width>128</width>
+  <height>68</height>
   <data>images\back_water.png</data>
 </background>
