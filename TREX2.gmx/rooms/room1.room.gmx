@@ -62,7 +62,6 @@ instance_create(0,0,obj_variables);</code>
     <instance objName="obj_dino" x="128" y="204" name="inst_D8A5575C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shark" x="416" y="340" name="inst_4EDC1890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="208" y="166" name="inst_804E52FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turn_face" x="576" y="534" name="inst_B6B347F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_wall_right" x="416" y="255" name="inst_B7F24CB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="448" y="204" name="inst_EA44D88C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_variables" x="64" y="102" name="inst_9E2C2448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

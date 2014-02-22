@@ -17,6 +17,7 @@
     <sprite>sprites\spr_sea_wall_right</sprite>
     <sprite>sprites\spr_door_right</sprite>
     <sprite>sprites\spr_door_left</sprite>
+    <sprite>sprites\spr_face</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
@@ -48,7 +49,6 @@
     <object>objects\obj_variables</object>
     <object>objects\obj_door</object>
     <object>objects\obj_door_left</object>
-    <object>objects\obj_turn_face</object>
     <object>objects\obj_sea_wall_right</object>
     <object>objects\objMHTML5</object>
     <object>objects\obj_door_right</object>
