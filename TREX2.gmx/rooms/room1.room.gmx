@@ -3,7 +3,7 @@
   <caption></caption>
   <width>640</width>
   <height>480</height>
-  <vsnap>17</vsnap>
+  <vsnap>1</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
@@ -65,7 +65,7 @@ instance_create(0,0,obj_variables);</code>
     <instance objName="obj_turn_face" x="576" y="534" name="inst_B6B347F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_wall_right" x="416" y="255" name="inst_B7F24CB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="448" y="204" name="inst_EA44D88C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_variables" x="96" y="165" name="inst_9E2C2448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_variables" x="64" y="102" name="inst_9E2C2448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_left" x="352" y="178" name="inst_574CFF74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="384" y="170" name="inst_F36BDE0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="256" y="170" name="inst_32CDF24B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -77,6 +77,7 @@ instance_create(0,0,obj_variables);</code>
     <instance objName="obj_land" x="480" y="221" name="inst_6EF1084D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="448" y="238" name="inst_26633B78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="384" y="272" name="inst_13413D47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_right" x="96" y="164" name="inst_A236E894" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
