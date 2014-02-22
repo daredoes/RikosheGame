@@ -162,7 +162,6 @@ if mouse_check_button_pressed(1)
 if position_meeting(mouse_x,mouse_y,self)
     {
     sl = 1
-    show_message("")
     global.turn = trex;
     obj_shark.sl = 0
     }
