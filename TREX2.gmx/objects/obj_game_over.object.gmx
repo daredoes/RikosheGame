@@ -54,7 +54,7 @@ timePlayed += string(round(obj_variables.step/30*100));
 
 obj_variables.secondsPlayed += obj_variables.minutesPlayed * 60;
 milliseconds = obj_variables.step/30*100 + obj_variables.secondsPlayed*100;
-score = milliseconds*11 + global.moves*203;
+score = milliseconds*11 + global.moves*703;
 ini_open(working_directory + "\played.ini");
 ini_write_real("played","timesPlayed", ini_read_real("played","timesPlayed",0) + 1);
 //show_message(ini_read_real("played","timesPlayed", 14));
