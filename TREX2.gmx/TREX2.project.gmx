@@ -20,11 +20,12 @@
     <script>scripts\quit_game.gml</script>
     <script>scripts\check_blocks.gml</script>
     <script>scripts\moveto_land.gml</script>
+    <script>scripts\moveto_water.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_main_menu</object>
     <object>objects\obj_shark</object>
-    <object>objects\obj_character</object>
+    <object>objects\obj_dino</object>
     <object>objects\obj_land</object>
     <object>objects\obj_dev</object>
     <object>objects\obj_variables</object>

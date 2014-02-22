@@ -84,7 +84,7 @@ for(dir = 0 ; dir &lt; 360 ; dir+=45)
 */
 if sl
     {
-    draw_circle(x,y,18,1)
+    //draw_circle(x,y,18,1)
     moveto_land(0,-34)
     moveto_land(0,34)
     moveto_land(64,0)
@@ -136,6 +136,7 @@ if mouse_check_button_pressed(1)
 if position_meeting(mouse_x,mouse_y,self)
     {
     sl = 1
+    obj_shark.sl = 0
     }
 
 </string>
