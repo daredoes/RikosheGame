@@ -62,7 +62,7 @@ chances = string(ini_read_real("played","timesPlayed",0))
 ini_close();
 if tab = 0
     {
-    if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2-150 , 640 , 100,'Practice Game',-1 , -1 , '')
+    if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2-150 , 640 , 100,'Play Game',-1 , -1 , '')
         {
         resetTimeandMoves();
         room = rm_level1
@@ -78,13 +78,13 @@ if tab = 0
                 global.gamemode = GAMEMODE_CHALLENGE
             }
         }
-    if((highscore_value(1)-1000000)*-1 = 1000000)
+    if((highscore_value(1)-scoreBalancer)*-1 = scoreBalancer)
     {
         scoreToBeat = 0;
     }
     else
     {
-        scoreToBeat = ((highscore_value(1)-1000000)*-1);
+        scoreToBeat = ((highscore_value(1)-scoreBalancer)*-1);
     }
     if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2+150 , 640 , 100,'Score to Beat: ' + string(scoreToBeat),-1 , -1 , '')
         {

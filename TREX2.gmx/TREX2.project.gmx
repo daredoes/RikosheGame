@@ -102,13 +102,14 @@
     <room>rooms\rm_level21</room>
     <room>rooms\rm_game_over</room>
   </rooms>
-  <constants number="6">
+  <constants number="7">
     <constant name="shark">0</constant>
     <constant name="trex">1</constant>
     <constant name="gridX">64</constant>
     <constant name="gridY">34</constant>
     <constant name="GAMEMODE_CHALLENGE">0</constant>
     <constant name="GAMEMODE_PRACTICE">1</constant>
+    <constant name="scoreBalancer">100000000</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>
