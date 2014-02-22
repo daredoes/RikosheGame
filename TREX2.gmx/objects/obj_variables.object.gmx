@@ -133,9 +133,9 @@ else
     //draw_sprite(spr_face,global.turn,room_width/32,room_height/12);
     draw_set_font(fnt_topbar);
     draw_set_halign(fa_left);
-    draw_text(room_width-(room_width/6),room_height/12,"Moves: " + string(global.moves));
+    draw_text(room_width/3+room_width/3,room_height/12,"Moves: " + string(global.moves));
     draw_set_halign(fa_center);
-    draw_text(room_width/2,room_height/12,
+    draw_text(room_width/3,room_height/12,
     minuteUnder + string(minutesPlayed) + ":" + secondUnder + string(secondsPlayed));
     
     if showhelp
