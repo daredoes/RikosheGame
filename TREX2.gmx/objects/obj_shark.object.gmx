@@ -73,7 +73,7 @@ if(global.turn = shark)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_main_menu">
+    <event eventtype="4" ename="obj_door">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -126,8 +126,8 @@ for(dir = 0 ; dir &lt; 360 ; dir+=45)
 if sl
     {
     //draw_circle(x,y,18,1)
-    moveto_water(0,-64)
-    moveto_water(0,64)
+    moveto_water(0,-68)
+    moveto_water(0,68)
     moveto_water(128,0)
     moveto_water(-128,0)
     moveto_water(64,-34)

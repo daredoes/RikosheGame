@@ -55,7 +55,7 @@ depth=-y
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_main_menu">
+    <event eventtype="4" ename="obj_door">
       <action>
         <libid>1</libid>
         <id>603</id>
