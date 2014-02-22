@@ -48,10 +48,12 @@
     <sprite>sprites\spr_gold_metal</sprite>
     <sprite>sprites\spr_face</sprite>
     <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\spr_button_main_menu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
     <background>background\bgr_game_over</background>
+    <background>background\back_main_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
