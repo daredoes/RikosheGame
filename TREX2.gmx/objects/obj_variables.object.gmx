@@ -168,12 +168,16 @@ if instance_number(obj_dino)=0
     showhelp = 1
     }
 if !showhelp
-if button(spr_button , view_xview[0] , view_yview[0]+view_hview[0]-48 , 256 , 48,'Restart',-1 , -1 , '')
     {
-    room_restart()
-    
+    if button(spr_button_main_menu , vx , view_yview[0]+view_hview[0]-64 , 256 , 64,'Restart',-1 , -1 , '')
+        {
+        room_restart()
+        }
+    if button(spr_button_main_menu , vx+vw-256 , view_yview[0]+view_hview[0]-64 , 256 , 64,'Quit',-1 , -1 , '')
+        {
+        room = rm_main_menu
+        }
     }
-
 }
 
 
