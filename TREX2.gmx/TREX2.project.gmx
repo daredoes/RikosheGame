@@ -41,6 +41,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_topbar</font>
+    <font>fonts\fnt_game_over</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_main_menu</object>

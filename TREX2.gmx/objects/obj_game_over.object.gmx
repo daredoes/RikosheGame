@@ -72,7 +72,9 @@ timePlayed += string(round(obj_variables.step/30*100));
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(room_width/2,room_height/2,timePlayed+"#Moves: " + string(global.moves));
+            <string>draw_set_font(fnt_game_over);
+draw_set_halign(fa_center);
+draw_text(room_width/2,room_height/2,timePlayed+"#Moves: " + string(global.moves));
 </string>
           </argument>
         </arguments>
