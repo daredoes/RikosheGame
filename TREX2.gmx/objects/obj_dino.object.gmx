@@ -75,8 +75,11 @@ y = round(y/16)*16
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy()
+            <string>if point_distance(x,y,other.x,other.y)&lt;64
+{
+instance_destroy()
 with other instance_destroy()
+}
 </string>
           </argument>
         </arguments>

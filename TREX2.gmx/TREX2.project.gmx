@@ -92,7 +92,7 @@
     <room>rooms\rm_html5</room>
     <room>rooms\rm_main_menu</room>
     <room>rooms\rm_level1</room>
-    <room>rooms\room5</room>
+    <room>rooms\rm_level2</room>
     <room>rooms\rm_level21</room>
     <room>rooms\rm_game_over</room>
   </rooms>
