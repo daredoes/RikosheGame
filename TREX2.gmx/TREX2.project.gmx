@@ -32,6 +32,16 @@
   <rooms name="rooms">
     <room>rooms\room1</room>
   </rooms>
+  <constants number="8">
+    <constant name="up">0</constant>
+    <constant name="right">1</constant>
+    <constant name="down">2</constant>
+    <constant name="left">3</constant>
+    <constant name="shark">0</constant>
+    <constant name="trex">1</constant>
+    <constant name="gridX">64</constant>
+    <constant name="gridY">34</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
