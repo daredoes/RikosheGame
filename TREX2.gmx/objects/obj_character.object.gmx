@@ -49,7 +49,7 @@ depth=-y
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth =- y-32
+            <string>depth =- y-128
 </string>
           </argument>
         </arguments>
@@ -73,7 +73,6 @@ depth=-y
           <argument>
             <kind>1</kind>
             <string>
-draw_self()
 
 /*
 for(dir = 0 ; dir &lt; 360 ; dir+=45)
@@ -95,6 +94,9 @@ if sl
     moveto_land(32,17)
     moveto_land(-32,17)
     }
+    
+draw_self()
+
 /*
 if sl
     {
