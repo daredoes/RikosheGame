@@ -9,6 +9,7 @@
     <sprite>sprites\spr_land</sprite>
     <sprite>sprites\spr_grid_highlight</sprite>
     <sprite>sprites\spr_shark</sprite>
+    <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_dino</sprite>
   </sprites>
   <backgrounds name="background">
@@ -27,6 +28,7 @@
     <object>objects\obj_shark</object>
     <object>objects\obj_dino</object>
     <object>objects\obj_land</object>
+    <object>objects\obj_button</object>
     <object>objects\obj_dev</object>
     <object>objects\obj_variables</object>
   </objects>
