@@ -1,6 +1,6 @@
 //moveto_land( x , y )
 
-draw_circle(x+argument0,y+argument1-12,3,1)
+//draw_circle(x+argument0,y+argument1-12,3,1)
 if !collision_circle(x+argument0,y+argument1-16,3,obj_land,1,1)
 {
 draw_sprite(spr_grid_highlight,0,x+argument0,y+argument1+12)
