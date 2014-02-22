@@ -134,7 +134,7 @@ if sl
     moveto_water(-32,-17)
     moveto_water(32,17)
     moveto_water(-32,17)
-    if point_distance(x,y,mouse_x,mouse_y)&gt;64
+    if point_distance(x,y,mouse_x,mouse_y)&gt;96
     if mouse_check_button_pressed(1)
     sl = 0
     }

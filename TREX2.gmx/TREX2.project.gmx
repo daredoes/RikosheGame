@@ -35,6 +35,7 @@
     <script>scripts\mhtml5_hide_addressbar.gml</script>
     <script>scripts\mhtml5_draw_flipwarning.gml</script>
     <script>scripts\mhtml5_center_canvas.gml</script>
+    <script>scripts\button.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_topbar</font>
