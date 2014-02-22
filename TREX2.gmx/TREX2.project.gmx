@@ -50,7 +50,7 @@
     <object>objects\obj_door_right</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\html5</room>
+    <room>rooms\rm_html5</room>
     <room>rooms\room1</room>
   </rooms>
   <constants number="8">

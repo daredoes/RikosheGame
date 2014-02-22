@@ -38,7 +38,7 @@ menu
 // Set the expected orientation of your game (the one you want users to play in).
 // 0 = landscape
 // 1 = portrait
-or_ex=1;
+or_ex=0;
 
 // Whether or not testing on desktop should function as on mobile
 // 0 = No, play at a set size with the game centered on desktop
