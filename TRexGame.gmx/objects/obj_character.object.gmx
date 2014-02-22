@@ -7,7 +7,95 @@
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
-  <events/>
+  <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sl = 0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self()
+
+if sl
+    {
+    draw_circle(x,y,18,1)
+    if mouse_check_button_pressed(1)
+        {
+        x1 = x
+        y1 = y
+        if mouse_x &gt; x + 16
+            {
+            x1+=32
+            }
+        if mouse_x &lt; x - 16
+            {
+            x1-=32
+            }
+        if mouse_y &gt; y + 8
+            {
+            y1+=17
+            }
+        if mouse_y &lt; y - 8
+            {
+            y1-=17
+            }
+        if position_meeting(x1,y1,obj_grid)
+            {
+            x = x1
+            y = y1
+            }
+        sl = 0
+        depth=-y-32
+        }
+    }
+    
+ 
+if mouse_check_button_pressed(1)
+if position_meeting(mouse_x,mouse_y,self)
+    {
+    sl = 1
+    }
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
