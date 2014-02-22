@@ -131,13 +131,18 @@ if(room = rm_game_over || room = rm_html5 || room = rm_main_menu)
 else
 {
     //draw_sprite(spr_face,global.turn,room_width/32,room_height/12);
+    draw_set_color(c_black)
+    draw_rectangle(vx,vy,vx+vw,vy+80,0)
     draw_set_font(fnt_topbar);
     draw_set_color(c_white);
+    draw_set_halign(fa_right);
+    draw_set_valign(fa_top);
+    draw_text(room_width-10,10,"Moves: " + string(global.moves));
     draw_set_halign(fa_left);
-    draw_text(room_width/3+room_width/3,room_height/12,"Moves: " + string(global.moves));
-    draw_set_halign(fa_center);
-    draw_text(room_width/3,room_height/12,
-    minuteUnder + string(minutesPlayed) + ":" + secondUnder + string(secondsPlayed));
+    
+    draw_text(10,10,
+    "Time: "+minuteUnder + string(minutesPlayed) + ":" + secondUnder + string(secondsPlayed));
+    
     
     if showhelp
     {
@@ -147,6 +152,7 @@ else
     draw_rectangle(vx,vy+vh-230,vx+vw,vy+vh,0)
     draw_set_color(c_white)
     draw_set_valign(fa_bottom)
+    draw_set_halign(fa_center);
     draw_text(view_xview[0]+view_wview[0]/2,view_yview[0]+view_hview[0]-40,"Get the dinosaur and the shark to the portals!#&lt; Click to Start &gt;")
     with obj_door_left
     draw_sprite(spr_arrow_left,0,x,y-96 - global.juice * 64)

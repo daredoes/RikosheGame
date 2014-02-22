@@ -71,6 +71,7 @@
     <script>scripts\button.gml</script>
     <script>scripts\scr_shorter_view_names.gml</script>
     <script>scripts\resetTimeandMoves.gml</script>
+    <script>scripts\infobox_centered.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_topbar</font>
