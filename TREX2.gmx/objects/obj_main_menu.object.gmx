@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>draw_set_font(fnt_topbar)
 if button(spr_button , view_xview[0]+view_wview[0]/2-128 , view_yview[0]+view_hview[0]/2-50 , 256 , 52,'Rikoshe Challenge',-1 , -1 , '')
 {
  
