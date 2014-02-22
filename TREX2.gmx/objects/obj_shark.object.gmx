@@ -94,6 +94,7 @@ if(global.turn = shark)
           <argument>
             <kind>1</kind>
             <string>instance_destroy()
+with other instance_destroy()
 </string>
           </argument>
         </arguments>
