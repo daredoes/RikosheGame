@@ -5,11 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_grid</sprite>
+    <sprite>sprites\spr_shark</sprite>
+    <sprite>sprites\spr_dino</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\back_water</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_main_menu</object>
+    <object>objects\obj_shark</object>
+    <object>objects\obj_character</object>
+    <object>objects\obj_grid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
