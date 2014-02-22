@@ -54,7 +54,7 @@ timePlayed += string(round(obj_variables.step/30*100));
 
 obj_variables.secondsPlayed += obj_variables.minutesPlayed * 60;
 milliseconds = obj_variables.step/30*100 + obj_variables.secondsPlayed*100;
-score = milliseconds*11 + global.moves*2103;
+score = round(milliseconds*11 + global.moves*2103);
 
 </string>
           </argument>

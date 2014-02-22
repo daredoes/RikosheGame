@@ -4,7 +4,7 @@
     <Config>Configs\Default</Config>
     <Config>Configs\html5</Config>
   </Configs>
-  <datafiles number="2" name="datafiles">
+  <datafiles number="3" name="datafiles">
     <datafile>
       <name>played.ini</name>
       <exists>-1</exists>
