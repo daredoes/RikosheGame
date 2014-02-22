@@ -14,6 +14,7 @@ if mouse_check_button_released(1)
     {
     x += argument0
     y += argument1
+    global.moves++;
     }
 }
 }
