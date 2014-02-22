@@ -58,11 +58,7 @@
     <room>rooms\rm_html5</room>
     <room>rooms\room1</room>
   </rooms>
-  <constants number="8">
-    <constant name="up">0</constant>
-    <constant name="right">1</constant>
-    <constant name="down">2</constant>
-    <constant name="left">3</constant>
+  <constants number="4">
     <constant name="shark">0</constant>
     <constant name="trex">1</constant>
     <constant name="gridX">64</constant>
