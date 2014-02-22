@@ -14,15 +14,31 @@
     <background>background\back_water</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\move.gml</script>
+    <script>scripts\quit_game.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_main_menu</object>
     <object>objects\obj_shark</object>
     <object>objects\obj_character</object>
     <object>objects\obj_grid</object>
+    <object>objects\obj_dev</object>
+    <object>objects\obj_variables</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main_menu</room>
   </rooms>
+  <constants number="8">
+    <constant name="up">1</constant>
+    <constant name="right">2</constant>
+    <constant name="down">3</constant>
+    <constant name="left">4</constant>
+    <constant name="gridX">64</constant>
+    <constant name="gridY">34</constant>
+    <constant name="shark">0</constant>
+    <constant name="trex">1</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
