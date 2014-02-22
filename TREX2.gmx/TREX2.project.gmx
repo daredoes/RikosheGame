@@ -44,10 +44,10 @@
     <object>objects\obj_dev</object>
     <object>objects\obj_variables</object>
     <object>objects\obj_door_left</object>
-    <object>objects\obj_variables</object>
     <object>objects\obj_turn_face</object>
     <object>objects\obj_sea_wall_right</object>
     <object>objects\objMHTML5</object>
+    <object>objects\obj_door_right</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
