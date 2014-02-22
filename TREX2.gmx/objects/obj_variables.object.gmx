@@ -132,6 +132,7 @@ else
 {
     //draw_sprite(spr_face,global.turn,room_width/32,room_height/12);
     draw_set_font(fnt_topbar);
+    draw_set_color(c_white);
     draw_set_halign(fa_left);
     draw_text(room_width/3+room_width/3,room_height/12,"Moves: " + string(global.moves));
     draw_set_halign(fa_center);
