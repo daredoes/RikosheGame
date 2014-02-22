@@ -17,6 +17,7 @@
   <scripts name="scripts">
     <script>scripts\move.gml</script>
     <script>scripts\quit_game.gml</script>
+    <script>scripts\check_blocks.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_main_menu</object>
