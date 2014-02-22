@@ -21,6 +21,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
+    <background>background\bgr_game_over</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -53,10 +54,12 @@
     <object>objects\obj_sea_wall_right</object>
     <object>objects\objMHTML5</object>
     <object>objects\obj_door_right</object>
+    <object>objects\obj_game_over</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_html5</room>
     <room>rooms\room1</room>
+    <room>rooms\rm_game_over</room>
   </rooms>
   <constants number="4">
     <constant name="shark">0</constant>
