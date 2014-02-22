@@ -81,7 +81,7 @@ obj_portal_blue.depth = -obj_portal_blue.y-32
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 10
+            <string>alarm[0] = 2
 </string>
           </argument>
         </arguments>
