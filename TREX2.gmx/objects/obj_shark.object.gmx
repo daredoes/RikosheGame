@@ -126,19 +126,19 @@ for(dir = 0 ; dir &lt; 360 ; dir+=45)
 if sl
     {
     //draw_circle(x,y,18,1)
-    moveto_water(0,-68)
-    moveto_water(0,68)
+    moveto_water(0,-64)
+    moveto_water(0,64)
     moveto_water(128,0)
     moveto_water(-128,0)
-    moveto_water(64,-34)
-    moveto_water(-64,-34)
-    moveto_water(64,34)
-    moveto_water(-64,34)
+    moveto_water(64,-32)
+    moveto_water(-64,-32)
+    moveto_water(64,32)
+    moveto_water(-64,32)
     if point_distance(x,y,mouse_x,mouse_y)&gt;96*2
     if mouse_check_button_pressed(1)
     sl = 0
     }
-    
+
 draw_self()
 
 /*
@@ -175,7 +175,7 @@ if sl
         }
     }
     */
- 
+
 if mouse_check_button_pressed(1)
 if position_meeting(mouse_x,mouse_y,self)
     {

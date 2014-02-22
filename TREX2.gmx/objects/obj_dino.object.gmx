@@ -108,14 +108,14 @@ for(dir = 0 ; dir &lt; 360 ; dir+=45)
 if sl
     {
     //draw_circle(x,y,18,1)
-    moveto_land(0,-68)
-    moveto_land(0,68)
+    moveto_land(0,-64)
+    moveto_land(0,64)
     moveto_land(128,0)
     moveto_land(-128,0)
-    moveto_land(64,-34)
-    moveto_land(-64,-34)
-    moveto_land(64,34)
-    moveto_land(-64,34)
+    moveto_land(64,-32)
+    moveto_land(-64,-32)
+    moveto_land(64,32)
+    moveto_land(-64,32)
     if point_distance(x,y,mouse_x,mouse_y)&gt;96*2
     if mouse_check_button_pressed(1)
     sl = 0
