@@ -12,6 +12,8 @@
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_dino</sprite>
     <sprite>sprites\spr_sea_wall_right</sprite>
+    <sprite>sprites\spr_door_right</sprite>
+    <sprite>sprites\spr_door_left</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>
@@ -31,6 +33,8 @@
     <object>objects\obj_land</object>
     <object>objects\obj_button</object>
     <object>objects\obj_dev</object>
+    <object>objects\obj_door_right</object>
+    <object>objects\obj_door_left</object>
     <object>objects\obj_variables</object>
     <object>objects\obj_turn_face</object>
     <object>objects\obj_sea_wall_right</object>
