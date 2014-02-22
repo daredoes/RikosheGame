@@ -112,6 +112,7 @@ showhelp = 1
             <kind>1</kind>
             <string>if(room = room1)
 {
+    draw_set_font(fnt_topbar);
     draw_set_halign(fa_left);
     draw_text(room_width-(room_width/6),room_height/12,"Moves: " + string(global.moves));
     draw_set_halign(fa_center);

@@ -35,6 +35,9 @@
     <script>scripts\mhtml5_draw_flipwarning.gml</script>
     <script>scripts\mhtml5_center_canvas.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_topbar</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_main_menu</object>
     <object>objects\obj_shark</object>
