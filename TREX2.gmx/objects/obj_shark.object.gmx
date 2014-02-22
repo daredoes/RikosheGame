@@ -157,6 +157,7 @@ if mouse_check_button_pressed(1)
 if position_meeting(mouse_x,mouse_y,self)
     {
     sl = 1
+    global.turn = shark;
     obj_dino.sl = 0
     }
 
