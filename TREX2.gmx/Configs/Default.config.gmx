@@ -359,5 +359,9 @@
     <option_winphone_tile_type>0</option_winphone_tile_type>
     <option_writeerrors>False</option_writeerrors>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="1">
+      <constant name="html5">false</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
