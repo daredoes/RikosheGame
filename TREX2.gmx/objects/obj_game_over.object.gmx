@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
+            <string>
 timePlayed = "";
 if(obj_variables.minutesPlayed &lt; 10)
 {
@@ -80,8 +80,7 @@ ini_close();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-draw_set_font(fnt_game_over);
+            <string>draw_set_font(fnt_game_over);
 draw_set_halign(fa_center);
 draw_text(room_width/2,room_height/2,timePlayed+"#Moves: " + string(global.moves)
 + "#Score: " + string(score));
