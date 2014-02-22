@@ -65,7 +65,7 @@ instance_create(0,0,obj_variables);</code>
     <instance objName="obj_turn_face" x="576" y="534" name="inst_B6B347F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_wall_right" x="416" y="255" name="inst_B7F24CB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="448" y="204" name="inst_EA44D88C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_right" x="96" y="165" name="inst_9E2C2448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_variables" x="96" y="165" name="inst_9E2C2448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_left" x="352" y="178" name="inst_574CFF74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="384" y="170" name="inst_F36BDE0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_land" x="256" y="170" name="inst_32CDF24B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
