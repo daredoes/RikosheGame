@@ -45,6 +45,7 @@
     <object>objects\obj_land</object>
     <object>objects\obj_button</object>
     <object>objects\obj_dev</object>
+    <object>objects\obj_door</object>
     <object>objects\obj_variables</object>
     <object>objects\obj_door_left</object>
     <object>objects\obj_turn_face</object>
