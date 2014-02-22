@@ -17,7 +17,8 @@
 else
 {
     room_goto_next();
-}</code>
+}
+instance_create(0,0,obj_dev);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
