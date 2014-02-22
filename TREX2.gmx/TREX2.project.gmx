@@ -95,11 +95,13 @@
     <room>rooms\rm_level21</room>
     <room>rooms\rm_game_over</room>
   </rooms>
-  <constants number="4">
+  <constants number="6">
     <constant name="shark">0</constant>
     <constant name="trex">1</constant>
     <constant name="gridX">64</constant>
     <constant name="gridY">34</constant>
+    <constant name="GAMEMODE_CHALLENGE">0</constant>
+    <constant name="GAMEMODE_PRACTICE">1</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

@@ -84,6 +84,21 @@ ini_close();
 draw_set_halign(fa_center);
 draw_text(room_width/2,room_height/2,timePlayed+"#Moves: " + string(global.moves)
 + "#Score: " + string(score));
+
+if global.gamemode = GAMEMODE_PRACTICE
+    {
+    if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2+250 , 640 , 100,"Next Level",-1 , -1 , '')
+        {
+        room = global.next_room   
+        }
+    }
+else
+    {
+    if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2+250 , 640 , 100,"Main Menu",-1 , -1 , '')
+        {
+        room = rm_main_menu
+        }
+    }
 </string>
           </argument>
         </arguments>
