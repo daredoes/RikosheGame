@@ -111,7 +111,11 @@ movesAtEndOfLevel = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(room != rm_game_over || rm_html5 || rm_main_menu)
+            <string>if(room = rm_game_over || room = rm_html5 || room = rm_main_menu)
+{
+
+}
+else
 {
     draw_sprite(spr_face,global.turn,room_width/32,room_height/12);
     draw_set_font(fnt_topbar);
