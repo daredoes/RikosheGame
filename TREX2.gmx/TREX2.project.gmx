@@ -45,6 +45,7 @@
     <sprite>sprites\spr_portal_red</sprite>
     <sprite>sprites\spr_gold_metal</sprite>
     <sprite>sprites\spr_face</sprite>
+    <sprite>sprites\sprite14</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\back_water</background>

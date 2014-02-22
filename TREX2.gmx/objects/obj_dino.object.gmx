@@ -190,9 +190,10 @@ if mouse_check_button_pressed(1)
 if position_meeting(mouse_x,mouse_y,self)
     {
     obj_dino.sl = 0
+    if instance_exists(obj_shark)
     obj_shark.sl = 0
     sl = 1
-    global.turn = trex;
+    //global.turn = trex;
     }
 
 </string>
