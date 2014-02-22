@@ -13,6 +13,7 @@
     <sprite>sprites\spr_raft</sprite>
     <sprite>sprites\spr_grid_highlight</sprite>
     <sprite>sprites\spr_shark</sprite>
+    <sprite>sprites\spr_switch</sprite>
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_dino</sprite>
     <sprite>sprites\spr_sea_wall_right</sprite>
