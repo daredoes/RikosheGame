@@ -27,7 +27,88 @@
             <kind>1</kind>
             <string>
 global.turn = shark;
-
+secondsPlayed = 0;
+minutesPlayed = 0;
+minuteUnder = "0";
+secondUnder = "0";
+step = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(room = room1)
+{
+    step++;
+    if(step = 30)
+    {
+        secondsPlayed++;
+        step = 0;
+    }
+    if(secondsPlayed &lt; 10)
+    {
+        secondUnder = "0";
+    }
+    else
+    {
+        secondUnder = "";
+    }
+    if(minutesPlayed &lt; 10)
+    {
+        minuteUnder = "0";
+    }
+    else
+    {
+        minuteUnder = "";
+    }
+    if(secondsPlayed = 60)
+    {   
+        secondsPlayed = 0;
+        minutesPlayed++;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_halign(fa_center);
+draw_text(room_width/2,room_height/7,
+minuteUnder + string(minutesPlayed) + ":" + secondUnder + string(secondsPlayed));
 </string>
           </argument>
         </arguments>
