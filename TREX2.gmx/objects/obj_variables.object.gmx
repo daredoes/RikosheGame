@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>
 global.turn = shark;
+global.moves = 0;
 secondsPlayed = 0;
 minutesPlayed = 0;
 minuteUnder = "0";
@@ -107,9 +108,14 @@ step = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_halign(fa_center);
-draw_text(room_width/2,room_height/7,
-minuteUnder + string(minutesPlayed) + ":" + secondUnder + string(secondsPlayed));
+            <string>if(room = room1)
+{
+    draw_set_halign(fa_left);
+    draw_text(room_width-(room_width/6),room_height/12,"Moves: " + string(global.moves));
+    draw_set_halign(fa_center);
+    draw_text(room_width/2,room_height/12,
+    minuteUnder + string(minutesPlayed) + ":" + secondUnder + string(secondsPlayed));
+}
 </string>
           </argument>
         </arguments>
