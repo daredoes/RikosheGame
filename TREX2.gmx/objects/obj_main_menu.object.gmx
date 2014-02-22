@@ -65,6 +65,7 @@ if tab = 0
     if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2+150 , 640 , 100,'Score to Beat: 234836',-1 , -1 , '')
         {
         tab = 1
+        exit
         }
     draw_set_halign(1)
     draw_set_valign(1)
@@ -78,10 +79,11 @@ if tab = 1
     draw_set_halign(1)
     draw_set_valign(1)
     draw_set_color(0)
-    draw_text(view_xview[0]+view_wview[0]/2-8+8,view_yview[0]+view_hview[0]/2+300,"World Top Score: 234836 set by Bob Joe 21 Minutes Ago##Your Best Score: 9324")
+    draw_text(view_xview[0]+view_wview[0]/2-8+8,view_yview[0]+view_hview[0]/2-100,"Your Top Score: 234836##World Top Score: 234836 (Set by Bob Joe 21 Minutes Ago##Congratulations! You hold the current world record!")
     if button(spr_button , view_xview[0]+view_wview[0]/2-320 , view_yview[0]+view_hview[0]/2+150 , 640 , 100,'Back',-1 , -1 , '')
         {
         tab = 0
+        exit
         }
     }
 
