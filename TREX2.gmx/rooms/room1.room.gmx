@@ -101,6 +101,15 @@ instance_create(0,0,obj_variables);</code>
     <instance objName="obj_land" x="448" y="912" name="inst_B6DBF469" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sea_wall_right" x="576" y="848" name="inst_BF2DB1D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_red" x="768" y="864" name="inst_39124702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button" x="1024" y="736" name="inst_DCDECC4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="896" y="528" name="inst_F3993B46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="1024" y="528" name="inst_7E57B5D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="960" y="464" name="inst_3ABCF23D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="832" y="560" name="inst_98BBC607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="1088" y="496" name="inst_69B34943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="1024" y="464" name="inst_B9D2E9E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="832" y="496" name="inst_01A62CE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_land" x="896" y="464" name="inst_476A56C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
