@@ -62,6 +62,11 @@ step = 0;
         secondsPlayed++;
         step = 0;
     }
+    if(secondsPlayed = 60)
+    {   
+        secondsPlayed = 0;
+        minutesPlayed++;
+    }
     if(secondsPlayed &lt; 10)
     {
         secondUnder = "0";
@@ -78,11 +83,7 @@ step = 0;
     {
         minuteUnder = "";
     }
-    if(secondsPlayed = 60)
-    {   
-        secondsPlayed = 0;
-        minutesPlayed++;
-    }
+    
 }
 </string>
           </argument>
